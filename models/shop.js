@@ -9,6 +9,7 @@ const shopSchema = Schema({
   },
   isPurchase: {
     type: Boolean,
+    default: false
   },
   cardImage: {
     type: String,
